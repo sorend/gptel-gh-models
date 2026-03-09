@@ -1,0 +1,4 @@
+(gptel-gh-models
+ :fetcher github
+ :repo "sorend/gptel-gh-models"
+ :files ("*.el"))
