@@ -1,6 +1,8 @@
 ;;; gptel-gh-models-integration-test.el --- Live integration tests -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2024
+;; Copyright (C) 2024  Soren A D
+
+;; SPDX-License-Identifier: MIT
 
 ;; This file is part of gptel-gh-models.
 ;; It is NOT part of GNU Emacs.

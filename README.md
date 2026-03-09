@@ -164,5 +164,4 @@ make clean
 
 ## License
 
-GNU General Public License v3 or later. See the file header in
-`gptel-gh-models.el` for details.
+MIT License. See the [LICENSE](LICENSE) file for details.
