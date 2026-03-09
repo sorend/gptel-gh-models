@@ -31,19 +31,11 @@ Then add that directory to your `load-path` in your `init.el`:
 (add-to-list 'load-path "~/.emacs.d/lisp/gptel-gh-models")
 ```
 
-### straight.el
-
-```elisp
-(straight-use-package
- '(gptel-gh-models :type git :host github
-                    :repo "sorend/gptel-gh-models"))
-```
-
-### use-package + straight.el
+### use-package with :vc (Emacs 29+)
 
 ```elisp
 (use-package gptel-gh-models
-  :straight (:host github :repo "sorend/gptel-gh-models")
+  :vc (:url "https://github.com/sorend/gptel-gh-models" :rev :newest)
   :after gptel
   :config
   (gptel-gh-models-setup :set-default t))
